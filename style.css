@@ -5,6 +5,7 @@
 h1 h2 h3 h4 h5 h6,
 p {
   margin: 0;
+  line-height: 20px;
 }
 .btn {
   font-size: medium;
@@ -19,12 +20,12 @@ p {
   border-radius: 4px;
 }
 .container-full {
-  background-color: #FBFBFB;
-  color: #000
+  background-color: #fbfbfb;
+  color: #000;
   font-family: Inter;
   font-style: Regular;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
 }
 .container {
   max-width: 1360px;
@@ -61,6 +62,7 @@ p {
   display: block;
   padding: 10px;
   color: #000;
+  font-weight: 500;
 }
 /* end Top Navber Section */
 
@@ -113,43 +115,84 @@ p {
 
 /*State bookmar Section */
 
-.bookmar{
-    margin-top: 80px;
+.bookmar {
+  margin-top: 80px;
 }
-.bookmar_title{
-    text-align: center;
+.bookmar_title {
+  text-align: center;
 }
-.bookmar .bookmar_title h2{
-font-size: 48px;
-font-weight: 700;
-line-height: 58px;
+.bookmar .bookmar_title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
 }
-.icon_list{
-    display: flex;
-    gap: 24px;
-    text-align: center;
-    margin-top: 44px;
+.icon_list {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+  margin-top: 44px;
 }
 
-.icon_item{
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 2px #627382;
-    
+.icon_item {
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 2px #627382;
 }
-.icon_item span{
-    display: inline-block;
-    border: 1px solid #ddd;
-    border-radius: 100%;
-    padding: 14px;
-    background-color: #F5353B;
-    color: #fff;
-    margin-bottom: 16px;
+.icon_item span {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  padding: 14px;
+  background-color: #f5353b;
+  color: #fff;
+  margin-bottom: 16px;
 }
-.icon_item h3{
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29px;
-    margin-bottom: 16px;
+.icon_item h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-bottom: 16px;
 }
 /*State bookmar Section */
+.brain_disign {
+  display: flex;
+  gap: 50px;
+}
+..brain_disign img {
+  height: 600px;
+  width: 600px;
+}
+.brain-title {
+  margin: 101px 0;
+  padding-right: 200px;
+}
+.brain-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #001931;
+  margin: 16px 0;
+}
+.brain-title span {
+  color: #469165;
+  font-size: 16px;
+  font-weight: 500;
+}
+.brain-title ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 32px;
+}
+.brain-title ul li {
+  display: block;
+  margin: 8px 0;
+  display: inline-block;
+  font-weight: 500;
+}
+.brain-title ul li i {
+  padding-right: 5px;
+  color: #30b868;
+  font-size: 16px;
+  font-weight: 500;
+}
