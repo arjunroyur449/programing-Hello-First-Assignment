@@ -31,6 +31,10 @@ p {
   margin: 0 auto;
 }
 
+.row {
+  padding: 120px 0;
+}
+
 /* state Top Navber Section */
 .header {
   padding: 20px 0;
@@ -59,3 +63,48 @@ p {
   color: #000;
 }
 /* end Top Navber Section */
+
+/* State hero Section */
+.hero {
+  text-align: center;
+  color: #fff;
+  padding: 0px 295px;
+  margin: 40px 0;
+}
+.hero h1 span {
+  color: #30b868;
+  display: block;
+}
+.hero h1 {
+  font-size: 72px;
+  line-height: 84px;
+}
+.hero p {
+  margin-bottom: 32px;
+  color: #fff;
+  margin-top: 20px;
+  padding: 0 90px;
+  line-height: 1.8;
+  font-size: 18px;
+}
+.bg-Image {
+  background-image: url(./assets/hero-bg.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.bg-none {
+  background: none;
+  border: 1px solid #fff;
+  margin-left: 16px;
+}
+.btn i {
+  padding-left: 10px;
+}
+.bg-none i {
+  padding-left: 0;
+  padding-right: 10px;
+}
