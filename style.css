@@ -196,3 +196,25 @@ p {
   font-size: 16px;
   font-weight: 500;
 }
+.mb-120 {
+  margin-bottom: 120px;
+  background-color: #f7f6f2;
+}
+.Clearly_section {
+  padding: 82px 400px;
+  text-align: center;
+}
+.Clearly_section h1 {
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+}
+.Clearly_section .mr-btn {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+/* .footer {
+  display: flex;
+  justify-content: space-between;
+} */
